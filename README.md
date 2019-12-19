@@ -39,4 +39,5 @@ end
 ````
 ## Provision the DB machine
 - Create another provision.sh file
-- Make sure it is created in the correct location in accordance with the path laid out in the Vagrantfile: `` db.vm.provision "shell", path: "environment/db/provision.sh" ``
+- Make sure it is created in the correct location in accordance with the path laid out in the Vagrantfile:
+`` db.vm.provision "shell", path: "environment/db/provision.sh" ``
