@@ -1,3 +1,4 @@
 .vagrant
 .git
 *.log
+app/node_modules/

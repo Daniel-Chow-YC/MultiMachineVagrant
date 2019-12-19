@@ -5,6 +5,7 @@ required_plugins.each do |plugin|
 end
 
 Vagrant.configure("2") do |config|
+
   config.vm.define "app" do |app|
     app.vm.box = "ubuntu/xenial64"
     app.vm.network "private_network", ip: "192.168.10.100"
